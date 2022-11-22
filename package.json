@@ -1,0 +1,23 @@
+{
+  "name": "page-object",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alineborak/page-object.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alineborak/page-object/issues"
+  },
+  "homepage": "https://github.com/alineborak/page-object#readme",
+  "dependencies": {
+    "cypress": "^11.1.0"
+  }
+}
