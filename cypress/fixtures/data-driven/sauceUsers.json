@@ -1,0 +1,14 @@
+[
+    {
+        "name": "should login to inventory page",
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expected": "Products"
+    },
+    {
+        "name": "should display locked out message",
+        "username": "locked_out_user",
+        "password": "secret_sauce",
+        "expected": "Epic sadface: Sorry, this user has been locked out."
+    }
+]
