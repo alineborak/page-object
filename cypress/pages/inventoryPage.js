@@ -1,7 +1,8 @@
 class inventoryPage {
 
     elements = { 
-        titleSpan: () => cy.get('[class="title"]').should("be.visible")
+        titleSpan: () => cy.get('[class="title"]').should("be.visible"),
+        mainLogo: () => cy.get('[class="app_logo"]').should("be.visible")
     }
 
 }

@@ -12,6 +12,13 @@ describe('POM implementation', () => {
         homeSaucePage.typePassword('secret_sauce');
         homeSaucePage.clickLogin();
         inventoryPage.elements.titleSpan().should("have.text", "Products");
+        inventoryPage.elements.mainLogo();
+    })
+    it('Should display error msg', () => {
+        homeSaucePage.typeUsername('locked_out_user');
+        homeSaucePage.typePassword('secret_sauce');
+        homeSaucePage.clickLogin();
+        homeSaucePage.elements.errorMsg().should("be.visible");
     })
 
 });
